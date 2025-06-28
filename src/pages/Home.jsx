@@ -3,13 +3,13 @@ import React from 'react';
 function Home() {
   return (
     <div>
-      <section className="head">
+      <section className="home_head">
         <h1>hello! i'm megan, nice to meet you!</h1>
       </section>
-      <section className="api">
+      <section className="home_api">
         <h1>pending api</h1>
       </section>
-      <section className="intro">
+      <section className="home_intro">
         <h3>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis feugiat urna. 
           Aenean ut commodo metus. Mauris fermentum eu ante vitae sollicitudin. 
@@ -25,6 +25,9 @@ function Home() {
       </section>
       <section className="home_projects">
         <h1>projects</h1>
+        <div className="home_projectspanels">
+          
+        </div>
       </section>
     </div>
   );
