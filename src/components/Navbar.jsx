@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav style={{ padding: '1rem', backgroundColor: '#eee' }}>
-      <ul style={{ listStyle: 'none', display: 'flex', gap: '1rem' }}>
+    <nav>
+      <ul>
         <li><Link to="/">maegicakes</Link></li>
         <li><Link to="/about">about me</Link></li>
         <li><Link to="/projects">projects</Link></li>
